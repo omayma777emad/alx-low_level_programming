@@ -5,7 +5,7 @@
  *
  * description:using _putchar
  *
- * return : always (0) success
+ * Return: int
 */
 
 int main(void)
