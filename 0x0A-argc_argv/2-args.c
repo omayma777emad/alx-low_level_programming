@@ -2,7 +2,6 @@
 
 /**
  * main - entry point
- * @i: int
  * @argc: int
  * @argv: list
  * Return: int
