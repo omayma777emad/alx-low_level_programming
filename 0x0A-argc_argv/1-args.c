@@ -2,10 +2,8 @@
 
 /**
  * main - entry point
- * @i: integer number
  * @argc: int
  * @argv: list
- * #i: int
  * Return: int
 */
 
