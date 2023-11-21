@@ -7,7 +7,7 @@
  * Return: void
 */
 
-void free_grid(int **grid, int height)
+void free_grid(**grid, height)
 {
 	int i = 0;
 
