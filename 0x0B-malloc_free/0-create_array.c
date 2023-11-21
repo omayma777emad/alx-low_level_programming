@@ -7,21 +7,23 @@
  * Return: char
 */
 
-char *create_array(int size, char specificChar)
+char *create_array(int size, char c)
 {
+	int i;
+
 	if (size == 0)
 	{
 		return (NULL);
 	}
-	char *array = (char *)malloc(size * sizeof(char));
+	char *array = (char*)malloc(size * sizeof(char));
 
 	if (array == NULL)
 	{
 		return (NULL);
 	}
-	for (int i = 0; i < size; i++)
+	for (i = 0; i < size; i++)
 	{
-		array[i] = specificChar;
+		array[i] = c;
 	}
 	return (array);
 }
