@@ -1,6 +1,6 @@
-#include"main.h"
 #include<stdio.h>
 #include<stdlib.h>
+#include"main.h"
 
 /**
  * *_memset - fill memory with conest byte
