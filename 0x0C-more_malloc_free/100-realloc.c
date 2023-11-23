@@ -1,5 +1,7 @@
 #include <stdlib.h>
 #include <string.h>
+#include<stdio.h>
+#include"main.h"
 
 /**
  * *_realloc - function yhar reallocate the memory
