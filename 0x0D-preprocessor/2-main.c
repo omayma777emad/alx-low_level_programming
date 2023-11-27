@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<stdlib.h>
 
 /**
  * main - return the name of the file
@@ -9,6 +8,6 @@
 
 int main(void)
 {
-	printf("the name of the file is %s", __FILE__);
+	printf("%s\n", __FILE__);
 	return (0);
 }
