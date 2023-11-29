@@ -1,4 +1,4 @@
-#include"FUNCTION_POINTERS_H"
+#include"function_pointers.h"
 
 /**
  * array_iterator - map an array
