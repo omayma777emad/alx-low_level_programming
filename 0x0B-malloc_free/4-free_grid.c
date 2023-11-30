@@ -1,17 +1,21 @@
 #include <stdlib.h>
+#include "main.h"
 
 /**
- * free_grid - free the grid
- * @height: int
- * @grid: grid of memories
- * Return: void
-*/
-
-void free_grid(**grid, height)
+ * free_grid - frees the memory allocate for the grid
+ * created by alloc_grid()
+ * @grid: grid to free
+ * @height: height of the grid
+ */
+void free_grid(int **grid, int height)
 {
-	int i = 0;
+	int i;
+
+	if (grid == NULL || height == 0)
+		return;
 
 	for (i = 0; i < height; i++)
 		free(grid[i]);
+
 	free(grid);
 }
